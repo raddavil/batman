@@ -5,6 +5,7 @@ body {
 	background-image: url('../img/main-bg.png');
 	background-repeat: no-repeat;
 	background-position: top center;
+	background-size: 100%;
 }
 .container {
 	max-width: 1140px;
@@ -177,16 +178,17 @@ header {
 	text-decoration: underline;
 }
 .full-info {
-flex: 0.97;
+	flex: 0.97;
 }
 .full-content {
 	display: flex;
 	justify-content: space-between;
+	padding-top: 40px;
 }
 .tabs-item {
 	color: #000;
 	text-decoration: none;
-	margin-right: 40px;
+	margin-right: 36px;
 	font-size: 18px;
 	line-height: 21px;
 }
@@ -195,4 +197,6 @@ flex: 0.97;
 }
 .tabs-content {
 	margin-right: 70px;
+	font-size: 16px;
+	line-height: 140%;
 }
